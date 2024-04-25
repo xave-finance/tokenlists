@@ -9,6 +9,7 @@ import polygon from './polygon'
 import sepolia from './sepolia'
 import zkevm from './zkevm'
 import fantom from './fantom'
+import artio from './artio'
 
 const config: Configs = {
   [Network.Arbitrum]: arbitrum,
@@ -21,6 +22,7 @@ const config: Configs = {
   [Network.Sepolia]: sepolia,
   [Network.Zkevm]: zkevm,
   [Network.Fantom]: fantom,
+  [Network.Artio]: artio,
 }
 
 export default config
